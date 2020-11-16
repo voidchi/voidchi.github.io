@@ -3,16 +3,30 @@
 <head>
   <link rel="icon" href = "./void.ico">
   <title>THE VOID</title>
-  		
-    @font-face {
+	<style id="preview-font-style" media="screen" type="text/css">
+
+		@font-face {
 			font-family: 'Web IBM BIOS';
 			font-style: normal;
 			font-weight: 400;
-			src: url(woff/web_ibm_bios.woff) format('woff');	
-    }
-  
-<p style = "font-family:Web IBM BIOS;">
-  <style type="text/css">
+			src: url(woff/web_ibm_bios.woff) format('woff');
+		}
+		.custom-font     { font-family: 'Web IBM BIOS';
+ 		}
+		h1.custom-font   { font-size: 24px; }
+			.specimen1       { font-size: 16px; }
+			.specimen2       { font-size: 8px; }		
+		.custom-default  { font-size: 16px; }
+			#font-header-container.aspect-correct > *, #txt-container.aspect-correct #txt, #charset437-container.aspect-correct > div, #charsetplus-container.aspect-correct > div {
+			width: 120%;
+		}
+		#font-header-container.aspect-correct, #txt-container.aspect-correct, #charset437-container.aspect-correct, #charsetplus-container.aspect-correct {
+			transform: scaleX(0.8333);
+		}
+		.aspect-correct .ccp {
+			transform: translate(-50%, 0) scaleX(1.2000); 
+		}
+		</style>		
 body {color: white; background: black;}
 div {text-align: center; font-size: 100%;}
 </style>
