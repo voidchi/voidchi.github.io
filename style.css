@@ -19,19 +19,19 @@ h2 {
   margin-bottom: 10px;
 }
 
-.credits {
+/*.credits {
   position: absolute;
   display: block;
-  left: 2px;
+  right: 2px;
   bottom: 0;
   color: #a9a9a9;
-}
+}*/
 
 .footdate {
   position: absolute;
   display: block;
   font-size: 30px;
-  left: 2px;
+  right: 2px;
   bottom: 15px;
   color: #a9a9a9;
 }
