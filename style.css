@@ -1,0 +1,80 @@
+
+body {
+  background: black;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 3px;
+  border: 7px solid white;
+  border-radius: 12px;
+}
+
+h2 {
+  font-size: 77px;
+  margin-bottom: 10px;
+}
+
+.credits {
+  position: absolute;
+  display: block;
+  left: 2px;
+  bottom: 0;
+  color: #a9a9a9;
+}
+
+.footdate {
+  position: absolute;
+  display: block;
+  font-size: 30px;
+  left: 2px;
+  bottom: 15px;
+  color: #a9a9a9;
+}
+
+.button {
+  background-color: #a9a9a9;
+  border: 3px;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.copy {
+  margin-top: 33px;
+  font-size: 22px;
+  color: #a9a9a9;
+  display: none;
+}
+
+/*
+I borrowed the following code from:
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns
+and don't understand exactly why it works.
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
