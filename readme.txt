@@ -1,8 +1,7 @@
 About Me page for GA interview (notes)
 by: Pat Ray
 
-I wanted to make some notes on the process here for our conversation,
-rather than leaving vestigial code commented out in the final version.
+I wanted to make some notes on the process here for our conversation:
 
 1. Design
 I first sketched out a concept that would fulfill all of the requirements of the exercise, consisting of a simple two column layout. On the left, my picture. On the right, my contact info and biography.
