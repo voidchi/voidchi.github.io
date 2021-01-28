@@ -1,0 +1,13 @@
+
+body {
+  background-color: black;
+  font-family: 'Quicksand', sans-serif;
+}
+
+img {
+  max-width: 80vw;
+  max-height: 80vh;
+  margin: 0 auto;
+}
+
+
